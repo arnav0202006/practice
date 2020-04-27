@@ -2,13 +2,52 @@
 <html>
     <head>
         <title>Practice Webpage!</title>
-        <h1>Top Soccer Players!</h1>
+          <h1 style="color:#104352;text-align:left">Top Soccer Players!</h1>
     </head>
-    <style>
-        font-family:Calibri;
-        font-size:bold;
-    </style>
-    <body>
+      <body>
+        <figure>
+          <img src="topsoccer.jpg" height=30%px width=30%px>
+          <figcaption>&nbsp; &nbsp; <b>Lionel Messi</b> &emsp; &emsp; &ensp; <b>Neymar</b> &emsp; &ensp; <b>Cristiano Ronaldo</b> </figcaption>
+        </figure>
+        <style>
+          img:hover{
+            padding:3px;
+          }
+          .number{
+            color:#09c4e0;
+            font-weight:bold;
+          }
+          body{
+            font-family: Calibri;
+          }
+          h1{
+            border:2px dotted #c3d0d4;
+            width: 290px;
+            height:40px;
+            margin-left: 23px;
+            margin-top: 5px;
+            margin-bottom:7px;
+            font-family:Cambria;
+          }
+          table{
+            border: 2px solid black;
+            margin-top: 5px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+          }
+          th,td{
+            border:2px solid black;
+            font-family:Calibri;
+            text-align:center;
+          }
+          tr{
+            border:2px solid black;
+          }
+          table,th,td,tr{
+            border-collapse:collapse;
+            padding:3px;
+          }
+        </style>
         <table>
             <tr>
               <th>First name</th>
@@ -22,6 +61,28 @@
               <td>Cristiano</td>
               <td>Ronaldo</td>
               <td>Real Madrid</td>
+            <tr>
+              <td>Neymar</td>
+              <td>N/A</td>
+              <td>Paris Saint-Germain</td>
         </table>
+        <b>Messi's Stats of 2019</b>:
+        <ul>
+            <li> Goals: <span class="number">24</span> </li>
+            <li> Assists: <span class="number">16</span> </li>
+            <li> Appearances: <span class="number">31</span> </li>
+        </ul>
+        <b>Ronaldo's Stats of 2019</b>:
+        <ul>
+            <li> Goals: <span class="number">25</span> </li>
+            <li> Assists: <span class="number">4</span> </li>
+            <li> Appearances: <span class="number">32</span> </li>
+        </ul>
+        <b>Neymar's Stats of 2019</b>:
+        <ul>
+            <li> Goals: <span class="number">18</span> </li>
+            <li> Assists: <span class="number">10</span> </li>
+            <li> Appearances: <span class="number">22</span> </li>
+        </ul>
     </body>
 </html>
